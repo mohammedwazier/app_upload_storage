@@ -1,5 +1,5 @@
 const {
-  IMAGE: { ENDPOINT, ACCESS_KEY, SECRET_KEY, BUCKET_NAME, PORT },
+  IMAGE: { ENDPOINT, ACCESS_KEY, SECRET_KEY, BUCKET_NAME, PORT, SSL },
 } = require("../config");
 
 const Minio = require("minio");
@@ -9,7 +9,7 @@ const MinioClient = new Minio.Client({
   port: PORT,
   endPoint: ENDPOINT,
   pathStyle: true,
-  useSSL: true,
+  useSSL: SSL,
 });
 
 module.exports = {

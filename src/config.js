@@ -7,6 +7,7 @@ const IMAGE = {
   SECRET_KEY: process.env.IMAGE_SECRET_KEY,
   BUCKET_NAME: process.env.IMAGE_BUCKET,
   PORT: process.env.IMAGE_PORT,
+  SSL: process.env.IMAGE_SSL === "true" ? true : false,
 };
 const HOST = process.env.HOST;
 

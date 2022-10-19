@@ -5,3 +5,4 @@ yarn.lock
 .git
 README.*
 .env.example
+.env

@@ -8,7 +8,6 @@ services:
       dockerfile: Dockerfile
     volumes:
       - app_vol:/app
-      - docker-entrypoint.sh:/usr/local/bin/docker-entrypoint.sh
     ports:
       - ${PORT}:${PORT}
     env_file:

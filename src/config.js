@@ -6,6 +6,7 @@ const IMAGE = {
   ACCESS_KEY: process.env.IMAGE_ACCESS_KEY,
   SECRET_KEY: process.env.IMAGE_SECRET_KEY,
   BUCKET_NAME: process.env.IMAGE_BUCKET,
+  PORT: process.env.IMAGE_PORT,
 };
 const HOST = process.env.HOST;
 

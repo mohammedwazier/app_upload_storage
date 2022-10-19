@@ -6,3 +6,6 @@ yarn.lock
 README.*
 .env.example
 .env
+docker-compose.yml
+docker-compose.prod.yml
+Dockerfile

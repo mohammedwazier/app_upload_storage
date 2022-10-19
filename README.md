@@ -1,10 +1,10 @@
 ## BUILD
 
-```
 docker build -t upload_app .
-docker tag upload_app mohammedwazier/upload_app
-docker push mohammedwazier/upload_app
-```
+<br/>
+docker tag upload_app <a href="https://hub.docker.com/r/mohammedwazier/upload_app">mohammedwazier/upload_app</a>
+<br/>
+docker push <a href="https://hub.docker.com/r/mohammedwazier/upload_app">mohammedwazier/upload_app</a>
 
 ### How to Use
 

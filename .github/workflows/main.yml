@@ -2,7 +2,7 @@ name: "Publishing Image to Docker Container"
 
 on:
   push:
-    branches: ["main"]
+    branches: ["latest"]
 
 env:
   REGISTRY: ghcr.io
